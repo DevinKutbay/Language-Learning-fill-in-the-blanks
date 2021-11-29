@@ -1,0 +1,104 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.button {
+    border:none;
+    border-radius: 25px;
+    padding: 2% 10% 2% 10%;
+    background-color:#3e92cf;
+    transition: 0.3s;
+}
+
+.button:disabled{
+    background-color:rgb(0, 91, 144);
+}
+
+.button:hover {
+    background-color:rgb(0, 91, 144);
+    border-radius: 15px;
+    transform:scale(1.05);
+    transform-origin: bottom left;
+    cursor:pointer;
+}
+
+
+.panel {
+    background-color: lightgray;
+    border-radius:25px;
+    padding:20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.inputfield {
+    border:none;
+    border-radius:25px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s;
+}
+
+.inputfield:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+#correctionPanel {
+    color:white;
+    text-align: center;
+    width:90%;
+    padding: 5% 0% 5% 0%;
+    display:none;
+    transition: 0.3s;
+}
+
+#correctionPanel:hover {
+    filter:saturate(0.5);
+    cursor:pointer;
+}
+
+#menuDiv {
+    transition: opacity 1s;
+}
+#gameDiv {
+    display:none;
+    transition: opacity 1s; 
+    padding: 0px 100px 0px 0px;
+}
+#logoText {
+    font-size:25px;
+}
+#andeoLogo {
+    width:20%;
+    height:20%;
+    transition: 0.15s;
+}
+#andeoLogo:hover {
+    cursor:pointer;
+    filter: grayscale(1) blur(1px);
+}
+
+#lives {
+    width: 30px;
+}
+
+#livesText {
+    margin-top: -63px;
+    padding-left: 100px;
+}
+
+#randomExplain {
+    margin-top: -40px;
+    padding-left: 80px;
+}
+
+#randomExplain:hover{
+    cursor: help;
+}
+
+#addonDiv {
+    display:none;
+    transition: opacity 1s; 
+    padding: 0px 100px 0px 0px;
+}
