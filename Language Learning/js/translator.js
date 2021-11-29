@@ -1,3 +1,5 @@
+//EventListener für Button-Click    Jetzt funktioniert es auch für Chrome
+document.getElementById("translateButton").addEventListener("click", translate );
 
 //Überprüft welches Feld als letztes bearbeitet wurde
 function lastedit(lastfield){
